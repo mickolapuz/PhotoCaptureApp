@@ -6,6 +6,7 @@ D:\BlazorFiles\PhotoCapture\PhotoCaptureApplication\PhotoCaptureApplication.Enti
 D:\BlazorFiles\PhotoCapture\PhotoCaptureApplication\PhotoCaptureApplication.Entities\obj\Debug\net8.0\PhotoCaptureApplication.Entities.AssemblyInfoInputs.cache
 D:\BlazorFiles\PhotoCapture\PhotoCaptureApplication\PhotoCaptureApplication.Entities\obj\Debug\net8.0\PhotoCaptureApplication.Entities.AssemblyInfo.cs
 D:\BlazorFiles\PhotoCapture\PhotoCaptureApplication\PhotoCaptureApplication.Entities\obj\Debug\net8.0\PhotoCaptureApplication.Entities.csproj.CoreCompileInputs.cache
+D:\BlazorFiles\PhotoCapture\PhotoCaptureApplication\PhotoCaptureApplication.Entities\obj\Debug\net8.0\PhotoCaptureApplication.Entities.sourcelink.json
 D:\BlazorFiles\PhotoCapture\PhotoCaptureApplication\PhotoCaptureApplication.Entities\obj\Debug\net8.0\PhotoCaptureApplication.Entities.dll
 D:\BlazorFiles\PhotoCapture\PhotoCaptureApplication\PhotoCaptureApplication.Entities\obj\Debug\net8.0\refint\PhotoCaptureApplication.Entities.dll
 D:\BlazorFiles\PhotoCapture\PhotoCaptureApplication\PhotoCaptureApplication.Entities\obj\Debug\net8.0\PhotoCaptureApplication.Entities.pdb

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("PhotoCaptureApplication.Entities")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+573d9f88dce665f2126c2aa91eaced1003bb0bc2")]
 [assembly: System.Reflection.AssemblyProductAttribute("PhotoCaptureApplication.Entities")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PhotoCaptureApplication.Entities")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

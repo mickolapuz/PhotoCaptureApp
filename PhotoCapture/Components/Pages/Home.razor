@@ -1,5 +1,240 @@
 ﻿@page "/"
+@using PhotoCaptureApplication.Entities.ViewModels
+@using Microsoft.Maui.Networking;
+@inject ConnectivityService ConnectivityService
+@inject HttpClient Http
+@inject FileStorageService FileStorageService
 
-<h1>Hello, world!</h1>
+<AlertComponent @ref="Alert" />
 
-Welcome to your new app.
+<style>
+    .container {
+    padding: 10px;
+    text-align: center;
+    }
+
+    .center-button {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+    }
+
+    .open-camera-btn {
+    font-size: 18px;
+    padding: 12px 24px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    }
+
+    .open-camera-btn:hover {
+    background-color: #0056b3;
+    }
+
+    .open-camera-btn:disabled {
+    background-color: #ccc !important;
+    color: #666 !important;
+    cursor: not-allowed !important;
+    }
+
+    .image-preview-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    }
+
+    .description-container {
+    text-align: center;
+    margin-top: 10px;
+    }
+
+    textarea {
+    width: 100%;
+    min-height: 80px;
+    margin-top: 5px;
+    }
+
+    .button-group {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 10px;
+    }
+
+    .action-button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    }
+
+    .save-btn {
+    background-color: #28a745;
+    color: white;
+    }
+
+    .retake-btn {
+    background-color: #ffc107;
+    color: black;
+    }
+
+    .cancel-btn {
+    background-color: #dc3545;
+    color: white;
+    }
+
+    .action-button:hover {
+    opacity: 0.8;
+    }
+
+    .pending-count {
+    font-size: 12px;
+    text-align: right;
+    margin-right: 10px;
+    color: gray;
+    }
+    }
+</style>
+
+<div class="container">
+    <p class="pending-count">Pending Uploads: @pendingUploadCount</p>
+
+    <h4>Welcome to Photo Capture Application!</h4>
+
+    <div class="center-button">
+        <button class="open-camera-btn" @onclick="OpenCamera" disabled="@IsCameraDisabled">
+            Open Camera
+        </button>
+    </div>
+
+    @if (!string.IsNullOrEmpty(imagePreview))
+    {
+        <div class="image-preview-container">
+            <img src="@imagePreview" width="300" />
+
+            <div class="description-container">
+                <label>Description:</label>
+                <textarea @bind="Description"></textarea>
+            </div>
+
+            <div class="button-group">
+                <button class="action-button save-btn" @onclick="OnSave">Save Image</button>
+                <button class="action-button retake-btn" @onclick="OnRetake">Retake</button>
+                <button class="action-button cancel-btn" @onclick="OnCancel">Cancel</button>
+            </div>
+        </div>
+    }
+</div>
+
+@code {
+    private string? imagePreview;
+    private string? imagePath;
+    private string Description = "";
+    private bool IsCameraDisabled => !string.IsNullOrEmpty(imagePath);
+    private AlertComponent? Alert;
+    private int pendingUploadCount;
+
+    protected override async Task OnInitializedAsync()
+    {
+        await UpdatePendingUploadCount();
+        Connectivity.ConnectivityChanged += async (sender, args) => await HandleConnectivityChange();
+    }
+
+    private async Task OpenCamera()
+    {
+        if (MediaPicker.Default.IsCaptureSupported)
+        {
+            FileResult photo = await MediaPicker.Default.CapturePhotoAsync();
+            if (photo != null)
+            {
+                imagePath = photo.FullPath;
+                using var stream = await photo.OpenReadAsync();
+                using var memoryStream = new MemoryStream();
+                await stream.CopyToAsync(memoryStream);
+                var imageBytes = memoryStream.ToArray();
+                imagePreview = $"data:image/jpeg;base64,{Convert.ToBase64String(imageBytes)}";
+                StateHasChanged();
+            }
+        }
+        else
+        {
+            Alert?.Show("Your device isn't supported!");
+        }
+    }
+
+    private async Task OnSave()
+    {
+        if (!string.IsNullOrEmpty(imagePath) && !string.IsNullOrEmpty(Description))
+        {
+            var imageData = new PhotoViewModel
+                {
+                    ImagePath = imagePath,
+                    Description = Description
+                };
+
+            if (ConnectivityService.IsOnline)
+            {
+                var response = await Http.PostAsJsonAsync("api/photo/saveImage", imageData);
+                string responseContent = await response.Content.ReadAsStringAsync();
+
+                if (response.IsSuccessStatusCode && responseContent == "SavedToDB")
+                {
+                    Alert?.Show("Image saved successfully!");
+                    OnCancel();
+                }
+                else
+                {
+                    Alert?.Show("Failed to save image! There was an internal error.");
+                }
+            }
+            else
+            {
+                // Save multiple images locally in a JSON file
+                await FileStorageService.AddPendingUploadAsync(new PendingPhoto
+                    {
+                        ImagePath = imagePath,
+                        Description = Description
+                    });
+
+                await UpdatePendingUploadCount();
+                Alert?.Show("Image saved locally. It will be uploaded when online!");
+                OnCancel();
+            }
+        }
+        else
+        {
+            Alert?.Show("Image and Description is required!");
+        }
+    }
+
+    private void OnCancel()
+    {
+        imagePath = string.Empty;
+        imagePreview = string.Empty;
+        Description = string.Empty;
+        StateHasChanged();
+    }
+
+    private async void OnRetake()
+    {
+        OnCancel();
+        await OpenCamera();
+    }
+
+    private async Task UpdatePendingUploadCount()
+    {
+        pendingUploadCount = await FileStorageService.GetPendingUploadCountAsync();
+        StateHasChanged();
+    }
+
+    private async Task HandleConnectivityChange()
+    {
+        if (ConnectivityService.IsOnline)
+        {
+            pendingUploadCount = 0;
+            StateHasChanged();
+        }
+    }
+}

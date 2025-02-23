@@ -10,6 +10,7 @@ D:\BlazorFiles\PhotoCapture\PhotoCaptureApplication\PhotoCaptureApplication.BL\o
 D:\BlazorFiles\PhotoCapture\PhotoCaptureApplication\PhotoCaptureApplication.BL\obj\Debug\net8.0\PhotoCaptureApplication.BL.AssemblyInfoInputs.cache
 D:\BlazorFiles\PhotoCapture\PhotoCaptureApplication\PhotoCaptureApplication.BL\obj\Debug\net8.0\PhotoCaptureApplication.BL.AssemblyInfo.cs
 D:\BlazorFiles\PhotoCapture\PhotoCaptureApplication\PhotoCaptureApplication.BL\obj\Debug\net8.0\PhotoCaptureApplication.BL.csproj.CoreCompileInputs.cache
+D:\BlazorFiles\PhotoCapture\PhotoCaptureApplication\PhotoCaptureApplication.BL\obj\Debug\net8.0\PhotoCaptureApplication.BL.sourcelink.json
 D:\BlazorFiles\PhotoCapture\PhotoCaptureApplication\PhotoCaptureApplication.BL\obj\Debug\net8.0\PhotoCap.51A92B01.Up2Date
 D:\BlazorFiles\PhotoCapture\PhotoCaptureApplication\PhotoCaptureApplication.BL\obj\Debug\net8.0\PhotoCaptureApplication.BL.dll
 D:\BlazorFiles\PhotoCapture\PhotoCaptureApplication\PhotoCaptureApplication.BL\obj\Debug\net8.0\refint\PhotoCaptureApplication.BL.dll
