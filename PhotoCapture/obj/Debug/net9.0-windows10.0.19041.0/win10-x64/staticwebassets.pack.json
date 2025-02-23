@@ -1,0 +1,45 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\BlazorFiles\\PhotoCapture\\PhotoCaptureApplication\\PhotoCapture\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\scopedcss\\bundle\\PhotoCapture.styles.css",
+      "PackagePath": "staticwebassets\\PhotoCapture.styles.css"
+    },
+    {
+      "Id": "D:\\BlazorFiles\\PhotoCapture\\PhotoCaptureApplication\\PhotoCapture\\wwwroot\\css\\app.css",
+      "PackagePath": "staticwebassets\\css\\app.css"
+    },
+    {
+      "Id": "D:\\BlazorFiles\\PhotoCapture\\PhotoCaptureApplication\\PhotoCapture\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.min.css"
+    },
+    {
+      "Id": "D:\\BlazorFiles\\PhotoCapture\\PhotoCaptureApplication\\PhotoCapture\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "D:\\BlazorFiles\\PhotoCapture\\PhotoCaptureApplication\\PhotoCapture\\wwwroot\\index.html",
+      "PackagePath": "staticwebassets\\index.html"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\staticwebassets\\msbuild.PhotoCapture.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\staticwebassets\\msbuild.PhotoCapture.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\staticwebassets\\msbuild.build.PhotoCapture.props",
+      "PackagePath": "build\\PhotoCapture.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\staticwebassets\\msbuild.buildMultiTargeting.PhotoCapture.props",
+      "PackagePath": "buildMultiTargeting\\PhotoCapture.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\staticwebassets\\msbuild.buildTransitive.PhotoCapture.props",
+      "PackagePath": "buildTransitive\\PhotoCapture.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

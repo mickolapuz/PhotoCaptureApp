@@ -1,0 +1,38 @@
+[
+  {
+    "ContainingType": "PhotoCaptureApplication.WebAPI.Controllers.PhotoController",
+    "Method": "SaveImage",
+    "RelativePath": "api/Photo/saveImage",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "photo",
+        "Type": "PhotoCaptureApplication.Entities.ViewModels.PhotoViewModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PhotoCaptureApplication.WebAPI.Controllers.PhotoController",
+    "Method": "Test",
+    "RelativePath": "api/Photo/test",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.String",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  }
+]

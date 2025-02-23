@@ -1,0 +1,12 @@
+D:\BlazorFiles\PhotoCapture\PhotoCaptureApplication\PhotoCaptureApplication.Entities\bin\Debug\net8.0\PhotoCaptureApplication.Entities.deps.json
+D:\BlazorFiles\PhotoCapture\PhotoCaptureApplication\PhotoCaptureApplication.Entities\bin\Debug\net8.0\PhotoCaptureApplication.Entities.dll
+D:\BlazorFiles\PhotoCapture\PhotoCaptureApplication\PhotoCaptureApplication.Entities\bin\Debug\net8.0\PhotoCaptureApplication.Entities.pdb
+D:\BlazorFiles\PhotoCapture\PhotoCaptureApplication\PhotoCaptureApplication.Entities\obj\Debug\net8.0\PhotoCaptureApplication.Entities.csproj.AssemblyReference.cache
+D:\BlazorFiles\PhotoCapture\PhotoCaptureApplication\PhotoCaptureApplication.Entities\obj\Debug\net8.0\PhotoCaptureApplication.Entities.GeneratedMSBuildEditorConfig.editorconfig
+D:\BlazorFiles\PhotoCapture\PhotoCaptureApplication\PhotoCaptureApplication.Entities\obj\Debug\net8.0\PhotoCaptureApplication.Entities.AssemblyInfoInputs.cache
+D:\BlazorFiles\PhotoCapture\PhotoCaptureApplication\PhotoCaptureApplication.Entities\obj\Debug\net8.0\PhotoCaptureApplication.Entities.AssemblyInfo.cs
+D:\BlazorFiles\PhotoCapture\PhotoCaptureApplication\PhotoCaptureApplication.Entities\obj\Debug\net8.0\PhotoCaptureApplication.Entities.csproj.CoreCompileInputs.cache
+D:\BlazorFiles\PhotoCapture\PhotoCaptureApplication\PhotoCaptureApplication.Entities\obj\Debug\net8.0\PhotoCaptureApplication.Entities.dll
+D:\BlazorFiles\PhotoCapture\PhotoCaptureApplication\PhotoCaptureApplication.Entities\obj\Debug\net8.0\refint\PhotoCaptureApplication.Entities.dll
+D:\BlazorFiles\PhotoCapture\PhotoCaptureApplication\PhotoCaptureApplication.Entities\obj\Debug\net8.0\PhotoCaptureApplication.Entities.pdb
+D:\BlazorFiles\PhotoCapture\PhotoCaptureApplication\PhotoCaptureApplication.Entities\obj\Debug\net8.0\ref\PhotoCaptureApplication.Entities.dll

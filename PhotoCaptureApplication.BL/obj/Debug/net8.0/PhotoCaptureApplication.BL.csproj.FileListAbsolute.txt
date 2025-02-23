@@ -1,0 +1,17 @@
+D:\BlazorFiles\PhotoCapture\PhotoCaptureApplication\PhotoCaptureApplication.BL\bin\Debug\net8.0\PhotoCaptureApplication.BL.deps.json
+D:\BlazorFiles\PhotoCapture\PhotoCaptureApplication\PhotoCaptureApplication.BL\bin\Debug\net8.0\PhotoCaptureApplication.BL.dll
+D:\BlazorFiles\PhotoCapture\PhotoCaptureApplication\PhotoCaptureApplication.BL\bin\Debug\net8.0\PhotoCaptureApplication.BL.pdb
+D:\BlazorFiles\PhotoCapture\PhotoCaptureApplication\PhotoCaptureApplication.BL\bin\Debug\net8.0\PhotoCaptureApplication.DAL.dll
+D:\BlazorFiles\PhotoCapture\PhotoCaptureApplication\PhotoCaptureApplication.BL\bin\Debug\net8.0\PhotoCaptureApplication.Entities.dll
+D:\BlazorFiles\PhotoCapture\PhotoCaptureApplication\PhotoCaptureApplication.BL\bin\Debug\net8.0\PhotoCaptureApplication.DAL.pdb
+D:\BlazorFiles\PhotoCapture\PhotoCaptureApplication\PhotoCaptureApplication.BL\bin\Debug\net8.0\PhotoCaptureApplication.Entities.pdb
+D:\BlazorFiles\PhotoCapture\PhotoCaptureApplication\PhotoCaptureApplication.BL\obj\Debug\net8.0\PhotoCaptureApplication.BL.csproj.AssemblyReference.cache
+D:\BlazorFiles\PhotoCapture\PhotoCaptureApplication\PhotoCaptureApplication.BL\obj\Debug\net8.0\PhotoCaptureApplication.BL.GeneratedMSBuildEditorConfig.editorconfig
+D:\BlazorFiles\PhotoCapture\PhotoCaptureApplication\PhotoCaptureApplication.BL\obj\Debug\net8.0\PhotoCaptureApplication.BL.AssemblyInfoInputs.cache
+D:\BlazorFiles\PhotoCapture\PhotoCaptureApplication\PhotoCaptureApplication.BL\obj\Debug\net8.0\PhotoCaptureApplication.BL.AssemblyInfo.cs
+D:\BlazorFiles\PhotoCapture\PhotoCaptureApplication\PhotoCaptureApplication.BL\obj\Debug\net8.0\PhotoCaptureApplication.BL.csproj.CoreCompileInputs.cache
+D:\BlazorFiles\PhotoCapture\PhotoCaptureApplication\PhotoCaptureApplication.BL\obj\Debug\net8.0\PhotoCap.51A92B01.Up2Date
+D:\BlazorFiles\PhotoCapture\PhotoCaptureApplication\PhotoCaptureApplication.BL\obj\Debug\net8.0\PhotoCaptureApplication.BL.dll
+D:\BlazorFiles\PhotoCapture\PhotoCaptureApplication\PhotoCaptureApplication.BL\obj\Debug\net8.0\refint\PhotoCaptureApplication.BL.dll
+D:\BlazorFiles\PhotoCapture\PhotoCaptureApplication\PhotoCaptureApplication.BL\obj\Debug\net8.0\PhotoCaptureApplication.BL.pdb
+D:\BlazorFiles\PhotoCapture\PhotoCaptureApplication\PhotoCaptureApplication.BL\obj\Debug\net8.0\ref\PhotoCaptureApplication.BL.dll

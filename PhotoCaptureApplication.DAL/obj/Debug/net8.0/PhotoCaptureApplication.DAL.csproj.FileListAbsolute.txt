@@ -1,0 +1,15 @@
+D:\BlazorFiles\PhotoCapture\PhotoCaptureApplication\PhotoCaptureApplication.DAL\bin\Debug\net8.0\PhotoCaptureApplication.DAL.deps.json
+D:\BlazorFiles\PhotoCapture\PhotoCaptureApplication\PhotoCaptureApplication.DAL\bin\Debug\net8.0\PhotoCaptureApplication.DAL.dll
+D:\BlazorFiles\PhotoCapture\PhotoCaptureApplication\PhotoCaptureApplication.DAL\bin\Debug\net8.0\PhotoCaptureApplication.DAL.pdb
+D:\BlazorFiles\PhotoCapture\PhotoCaptureApplication\PhotoCaptureApplication.DAL\bin\Debug\net8.0\PhotoCaptureApplication.Entities.dll
+D:\BlazorFiles\PhotoCapture\PhotoCaptureApplication\PhotoCaptureApplication.DAL\bin\Debug\net8.0\PhotoCaptureApplication.Entities.pdb
+D:\BlazorFiles\PhotoCapture\PhotoCaptureApplication\PhotoCaptureApplication.DAL\obj\Debug\net8.0\PhotoCaptureApplication.DAL.csproj.AssemblyReference.cache
+D:\BlazorFiles\PhotoCapture\PhotoCaptureApplication\PhotoCaptureApplication.DAL\obj\Debug\net8.0\PhotoCaptureApplication.DAL.GeneratedMSBuildEditorConfig.editorconfig
+D:\BlazorFiles\PhotoCapture\PhotoCaptureApplication\PhotoCaptureApplication.DAL\obj\Debug\net8.0\PhotoCaptureApplication.DAL.AssemblyInfoInputs.cache
+D:\BlazorFiles\PhotoCapture\PhotoCaptureApplication\PhotoCaptureApplication.DAL\obj\Debug\net8.0\PhotoCaptureApplication.DAL.AssemblyInfo.cs
+D:\BlazorFiles\PhotoCapture\PhotoCaptureApplication\PhotoCaptureApplication.DAL\obj\Debug\net8.0\PhotoCaptureApplication.DAL.csproj.CoreCompileInputs.cache
+D:\BlazorFiles\PhotoCapture\PhotoCaptureApplication\PhotoCaptureApplication.DAL\obj\Debug\net8.0\PhotoCap.5DABFA64.Up2Date
+D:\BlazorFiles\PhotoCapture\PhotoCaptureApplication\PhotoCaptureApplication.DAL\obj\Debug\net8.0\PhotoCaptureApplication.DAL.dll
+D:\BlazorFiles\PhotoCapture\PhotoCaptureApplication\PhotoCaptureApplication.DAL\obj\Debug\net8.0\refint\PhotoCaptureApplication.DAL.dll
+D:\BlazorFiles\PhotoCapture\PhotoCaptureApplication\PhotoCaptureApplication.DAL\obj\Debug\net8.0\PhotoCaptureApplication.DAL.pdb
+D:\BlazorFiles\PhotoCapture\PhotoCaptureApplication\PhotoCaptureApplication.DAL\obj\Debug\net8.0\ref\PhotoCaptureApplication.DAL.dll

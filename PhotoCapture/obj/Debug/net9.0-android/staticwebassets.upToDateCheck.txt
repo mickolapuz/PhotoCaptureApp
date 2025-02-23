@@ -1,0 +1,8 @@
+D:\BlazorFiles\PhotoCapture\PhotoCaptureApplication\PhotoCapture\wwwroot\css\app.css
+D:\BlazorFiles\PhotoCapture\PhotoCaptureApplication\PhotoCapture\wwwroot\css\bootstrap\bootstrap.min.css.map
+D:\BlazorFiles\PhotoCapture\PhotoCaptureApplication\PhotoCapture\wwwroot\index.html
+D:\BlazorFiles\PhotoCapture\PhotoCaptureApplication\PhotoCapture\wwwroot\css\bootstrap\bootstrap.min.css
+wwwroot\css\app.css
+wwwroot\css\bootstrap\bootstrap.min.css
+wwwroot\css\bootstrap\bootstrap.min.css.map
+wwwroot\index.html
